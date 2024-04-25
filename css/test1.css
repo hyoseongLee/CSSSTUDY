@@ -9,6 +9,9 @@ html {
     padding: 100px 0;
     font-size: 500%;
     font-color:red;
+    
+    /* color: red; */
+    /* 글자 색을 변경하고 싶을 때는 color를 사용해야합니다!! */
   }
   
   .head {
