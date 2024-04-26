@@ -5,7 +5,7 @@ html {
 }
 .box {
   width:100%;
-  aligin-item:center;
+  align-items:center;
   justify-content:flex-end;
   display:flex;
 
