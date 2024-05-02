@@ -12,30 +12,50 @@ html {
 }
 
 .gmail {
-  border: 5px solid blue;
-  color: darkgrey;
+  color: #505050;
   margin-right: 20px;
+  font-size: larger;
+
 }
 
 .img {
-  border: 5px solid blue;
-  color: darkgrey;
-  margin-right: 40px;
+  color: #505050;
+  margin-right: 20px;
+  font-size: larger;
+
 }
 
-/* margin-right는 옆 요소와의 간격입니다! 그러므로 img, img1, img2의 간격도 20px씩이 되어야겠지요? */
-/* color는 피그마에 505050같은 걸로 잡아주면 더 정확한 색상을 받을 수 있습니다!
-#505050등으로 사용하면 됩니다! */
-
 .img1 {
-  border: 5px solid blue;
-  color: darkgrey;
-  margin-right: 60px;
-
+  color: #505050;
+  margin-right: 20px;
+  font-size: larger;
 }
 
 .img2 {
+  color: #505050;
+  margin-right: 20px;
+  font-size: larger;
+}
+
+ul {
+  border:5px solid blue;
+  font-size: 115px;
+  margin: 191px 534px 520px 534px;
+  display: flex;
+  list-style-type: none;
+  justify-content: center;
+}
+
+li {
+  color: #5e8fde;
+}
+input {
+  margin: 394px 381px 405px 380px;
   border: 5px solid blue;
-  color: darkgrey;
-  margin-right: 80px;
+  display: flex;
+  flex-container: row;
+  justify-content: center;
+}
+.seacrh{
+  border: 5px solid blue;
 }
