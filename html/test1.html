@@ -43,4 +43,24 @@
 </body>
 
 </html>
-</html> 24.05.02 여기까지 입력창 이동을 못하겠어요.. 입력창 안에 넣는거랑..
+
+24.05.02 여기까지 입력창 이동을 못하겠어요.. 입력창 안에 넣는거랑..
+
+<!-- 입력창 이동은 ul과 input창을 감싸고 있는 search에다가
+display: flex;
+align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  를 주면 되겠지요?? -->
+
+
+<!-- 입력창 안에 넣는거는 div로 넣는다고 보면 됩니다
+예를 들어
+<div>
+  <input type="text" />
+  <img src="/images/Smark.png">
+</div>
+이렇게 하고 div에다가 border처리 주고 input창은 border를 none처리하면 되겠지용??
+
+한마디로 input창은 div안에 숨겨놓고 div가 input창인 척 모습만 구현된다고 보면 되요!!
+그렇게 하면 img는 input창 안에 있는 것처럼 보이겠죠? -->
