@@ -37,29 +37,46 @@ html {
   font-size: larger;
 }
 
-ul {
-  /* border:5px solid blue; */
-  font-size: 115px;
-  /* margin: 191px 534px 520px 534px; */
-  /* ???? */
+.google {
+  padding: 10px;
   display: flex;
-  list-style-type: none;
   justify-content: center;
-  /* 접근은 굉장히 좋아요!! 다만 ul뿐이 아니라 ul부터 맨 밑의 요소까지 합해진 부분에(즉 .search)부분 flex center 적용시키면 더 좋을 것 같아요:) */
+  border: 5px solid blue;
+
 }
 
-li {
-  color: #5e8fde;
-}
-input {
-  /* margin: 394px 381px 405px 380px; */
-  /* border: 5px solid blue; */
+.input {
+  margin-top: 50px;
+  padding: 38px;
   display: flex;
-  flex-container: row;
-  /* flex-direction: row; */
-  /* 이부분을 말씀하시고 싶었던 것일까요??? */
+  justify-content: center;
+  border: none;
+  border-radius: 20px;
+}
+
+#seacrh {
+  margin-top: 50px;
+  padding: 20px;
+  border: 5px solid blue;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+
+}
+
+.other box {
+  display: flex;
   justify-content: center;
 }
-.seacrh{
-  /* border: 5px solid blue; */
+
+.other {
+  width: 66px;
+  height: 66px;
+  margin: 56px;
+}
+
+.aother {
+  width: 66px;
+  height: 66px;
 }
