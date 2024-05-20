@@ -1,0 +1,70 @@
+html {
+    background-color: rgb(175, 171, 171);
+
+}
+
+.red {
+    width:100%;
+    background-color: rgb(214, 91, 111);
+    display:flex;
+
+}
+
+.ray {
+    font-weight: bold;
+    margin-top: 28px;
+    margin-left: 41px;
+    margin-right: 20px;
+}
+
+.input {
+    width:424px;
+    height:53px;
+    background-color: rgb(241, 239, 239);
+    border:none;
+    margin: 12px 399px;
+
+}
+
+.alone {
+    margin-top: 28px;
+    margin-right:38px;
+    text-align: center;
+}
+
+.wit {
+    margin-top: 57px;
+    width:100%;
+    background-color: rgb(242, 242, 242);
+    display:flex;
+    justify-content: flex-start;
+    align-items: center;
+    color:black;
+}
+
+.menu {
+    color:black;
+    margin-right:16px;
+
+}
+
+.gabia {
+    font-weight: bold;
+    color:rgb(21, 59, 71);
+    margin:28px 42px;
+    font-size: x-large;
+
+}
+
+
+.menu1 {
+    margin-right:20px;
+}
+
+.menu2 {
+    background-color: gray;
+    border:none;
+    margin-right: 18px;
+
+}
+
