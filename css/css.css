@@ -4,34 +4,69 @@ html {
 }
 
 .red {
+    height: 77px;
     width:100%;
     background-color: rgb(214, 91, 111);
     display:flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 32px;
+    padding-right: 42px;
+}
+
+.dooray {
+   display:flex;
+   justify-content: space-between;
+   align-items: center;
 
 }
 
-.ray {
+.ray{
+    gap:20px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+ .ra {
+    text-align: center;
+    font-size: 25px;
     font-weight: bold;
-    margin-top: 28px;
-    margin-left: 41px;
-    margin-right: 20px;
-}
+    color:white;
+
+ 
+ }
+ .rin {
+    text-align: center;
+    font-size: 25px;
+    font-weight: bold;
+    color:white;
+
+ }
 
 .input {
     width:424px;
     height:53px;
     background-color: rgb(241, 239, 239);
     border:none;
-    margin: 12px 399px;
+    margin-left: 154px;
 
 }
 
 .alone {
-    margin-top: 28px;
-    margin-right:38px;
-    text-align: center;
+    font-size: 25px;
+    color:white;
 }
 
+
+
+
+
+
+
+
+/* 
 .wit {
     margin-top: 57px;
     width:100%;
@@ -64,7 +99,7 @@ html {
 .menu2 {
     background-color: gray;
     border:none;
-    margin-right: 18px;
+    margin-right: 18px; 
 
-}
+} */
 
