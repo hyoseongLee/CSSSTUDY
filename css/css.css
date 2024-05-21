@@ -1,13 +1,13 @@
 html {
     background-color: rgb(175, 171, 171);
-
+    padding: 0;
+    margin: 0;
 }
 
 .red {
     height: 77px;
-    width:100%;
     background-color: rgb(214, 91, 111);
-    display:flex;
+    display: flex;
     align-items: center;
     justify-content: space-between;
     padding-left: 32px;
@@ -15,91 +15,193 @@ html {
 }
 
 .dooray {
-   display:flex;
-   justify-content: space-between;
-   align-items: center;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 
 }
 
-.ray{
-    gap:20px;
-    display:flex;
+.ray {
+    gap: 20px;
+    display: flex;
     justify-content: center;
     align-items: center;
 
 }
 
- .ra {
+.ra {
     text-align: center;
     font-size: 25px;
     font-weight: bold;
-    color:white;
+    color: white;
 
- 
- }
- .rin {
+
+}
+
+.rin {
     text-align: center;
     font-size: 25px;
     font-weight: bold;
-    color:white;
+    color: white;
 
- }
+}
 
 .input {
-    width:424px;
-    height:53px;
+    width: 424px;
+    height: 53px;
     background-color: rgb(241, 239, 239);
-    border:none;
+    border: none;
     margin-left: 154px;
+    padding-left: 17px;
 
 }
 
 .alone {
     font-size: 25px;
-    color:white;
+    color: white;
+}
+
+body {
+    margin: 0;
+    padding: 0;
 }
 
 
 
 
-
-
-
-
-/* 
-.wit {
-    margin-top: 57px;
-    width:100%;
+.white {
+    height: 100px;
     background-color: rgb(242, 242, 242);
-    display:flex;
-    justify-content: flex-start;
+    display: flex;
+    justify-content: space-between;
     align-items: center;
-    color:black;
+    color: black;
+    padding-right: 18px;
+    padding-left: 42px;
+    margin-top: 57px;
+}
+
+.set {
+    display: flex;
+    align-items: center;
+    color: black;
+}
+
+.Gabia {
+    font-weight: bold;
+    color: rgb(0, 52, 67);
+    font-size: 35px;
+    margin-right: 58px;
 }
 
 .menu {
-    color:black;
-    margin-right:16px;
+    gap: 16px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 
 }
 
-.gabia {
-    font-weight: bold;
-    color:rgb(21, 59, 71);
-    margin:28px 42px;
-    font-size: x-large;
+.ra a {
+    cursor: pointer;
+    text-decoration: none;
+    color: rgb(246, 238, 238);
+}
+
+.rin a {
+    cursor: pointer;
+    text-decoration: none;
+    color: rgb(246, 238, 238);
+}
+
+.alone a {
+    cursor: pointer;
+    text-decoration: none;
+    color: rgb(246, 238, 238);
+}
+
+.Gabia a {
+    cursor: pointer;
+    text-decoration: none;
+    color: rgb(22, 22, 121);
+}
+
+.menu a {
+    cursor: pointer;
+    text-decoration: none;
+    color: black;
+}
+
+.gray {
+    display: flex;
+    align-items: center;
+}
+
+.going {
+    display: flex;
+    gap: 11px;
+    margin-right: 29px;
+}
+
+.login {
+    color: rgb(75, 72, 72);
+    font-size: 16px;
+}
+
+.in {
+    color: rgb(75, 72, 72);
+    font-size: 16px;
+}
+
+.gabi {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 9px;
+    padding-left: 16px;
+}
+
+.bia {
+    background-color: rgb(157, 155, 155);
+    border: none;
+    color: white;
+    font-size: 20px;
+    border-radius: 3px;
+    padding:8px 16px;
 
 }
 
-
-.menu1 {
-    margin-right:20px;
+.ct {
+    background-color: rgb(157, 155, 155);
+    border: none;
+    color: white;
+    font-size: 20px;
+    border-radius: 3px;
+    padding:8px 16px;
 }
 
-.menu2 {
-    background-color: gray;
-    border:none;
-    margin-right: 18px; 
 
-} */
 
+.login a {
+    cursor: pointer;
+    text-decoration: none;
+    color: rgb(69, 67, 67);
+}
+
+.in a {
+    cursor: pointer;
+    text-decoration: none;
+    color: rgb(69, 67, 67);
+}
+
+.bia a {
+    cursor: pointer;
+    text-decoration: none;
+    color: rgb(246, 238, 238);
+}
+
+.ct a {
+    cursor: pointer;
+    text-decoration: none;
+    color: rgb(246, 238, 238);
+}
