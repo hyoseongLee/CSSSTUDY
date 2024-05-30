@@ -28,20 +28,16 @@ html {
 
 .login {
     display: flex;
-    margin-top: 28px;
+    align-items: center;
+    justify-content: space-between;
 
-}
-
-.line {
-    width: 592px;
-    margin-left: 33px;
 }
 
 .Schooler {
-    margin-left: 33px;
     font-size: 20px;
     font-weight: bold;
     color: black;
+    margin-left: 33px;
 }
 
 .Schooler a {
@@ -51,13 +47,12 @@ html {
 }
 
 .sign {
-    background-color: rgb(55, 55, 226);
+    background-color: rgb(67, 67, 255);
     border-radius: 20px;
-    border: none;
-    color: white;
-    font-size: 13px;
     font-weight: bold;
     padding: 3px 5px;
+    font-size: 13px;
+    color: white;
     /* margin-left: 381px;
     다시 생각해봐주세요! */
 }
@@ -68,11 +63,11 @@ html {
     color: rgb(246, 238, 238);
 }
 
-.id {
-    width: 400px;
-    height: 155px;
+.content {
     display: flex;
+    align-items: center;
     flex-direction: column;
+    margin-top: 101px;
     align-items: flex-start;
     margin-top: 44px;
     margin-left: 122px;
@@ -107,7 +102,6 @@ html {
     margin-top: 39px;
     display: flex;
     flex-direction: column;
-    justify-content: center;
     align-items: center;
 }
 
