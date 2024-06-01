@@ -11,22 +11,25 @@ body {
     align-items: center;
 }
 
-
 .login {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    margin-top:30px;
+    margin-top: 30px;
+    margin-right: 26px;
     margin-bottom: 7px;
 }
 
 .box {
     background-color: white;
-    border:1px solid #525252;
+    border: 1px solid #525252;
     border-radius: 10px;
     width: 620px;
     height: 403px;
+}
 
+hr{
+width: 585px;
 }
 
 .Schooler {
@@ -43,12 +46,18 @@ body {
 }
 
 .sign {
-    background-color: rgb(67, 67, 255);
+    background-color: #4F6DD9;
     border-radius: 20px;
     font-weight: bold;
     padding: 3px 5px;
     font-size: 13px;
-    color:white;
+    color: white;
+}
+
+.sign a {
+    cursor: pointer;
+    text-decoration: none;
+    color: white;
 }
 
 .content {
@@ -64,7 +73,6 @@ body {
 
 .password {
     font-size: 15px;
-
 }
 
 .inpassword {
@@ -94,13 +102,12 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: rgb(90, 90, 233);
+    background-color: #4F6DD9;
     border-radius: 5px;
     font-size: 20px;
     font-weight: bold;
     color: white;
 }
-
 
 .loginin a {
     cursor: pointer;
@@ -108,13 +115,26 @@ body {
     color: rgb(246, 238, 238);
 }
 
-.missing {
-    display: flex;
-    justify-content: center;
-    margin-top: 25px;
+.missing_id {
 }
 
-.missing a {
+.missing {
+    font-size: 12px;
+    display: flex;
+    justify-content: center;
+    padding-top:25px;
+}
+
+.missing_id a {
+    cursor: pointer;
+    text-decoration: none;
+    color: black;
+}
+
+.missing_password {
+}
+
+.missing_password a {
     cursor: pointer;
     text-decoration: none;
     color: black;
