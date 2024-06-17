@@ -46,8 +46,6 @@ html {
 .googlename {
   width: 500px;
   height: 300px;
-
-
 }
 
 .input {
@@ -79,28 +77,29 @@ html {
 .otherbox {
   display: flex;
   justify-content: center;
-  align-items:center;
+  align-items: center;
   margin-right: 20px;
 }
 
 .other {
   width: 66px;
   height: 66px;
-  text-align:center;
+  text-align: center;
 }
 
 .aother {
   width: 66px;
   height: 66px;
-  text-align:center;
+  text-align: center;
 }
 
-.twotherbox{
+.twotherbox {
   display: flex;
   justify-content: center;
-  align-items:center;
+  align-items: center;
 
 }
+
 .boxbox {
   display: flex;
   justify-content: center;
