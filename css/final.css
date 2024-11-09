@@ -448,6 +448,6 @@ body {
 
 .content7:hover {
     border: none;
-    color: #FFFFFF;
+    color: rgba(31, 34, 46, 0.60);
     font-weight: bold;
 }
